@@ -23,7 +23,6 @@ public class JetApplication {
 		System.out.println();
 		System.out.println("Please use the corresponding number to the menu item to navigate your visit.");
 
-		// Load the fleet data from the file
 		List<Jet> fleet = airField.readJets(fileName);
 		airField.setFleet(fleet);
 
